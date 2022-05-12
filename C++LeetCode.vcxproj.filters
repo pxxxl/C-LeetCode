@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="测试">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="树">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="栈">
+      <UniqueIdentifier>{16a1299d-998f-4888-9abc-6734909688e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="队列">
+      <UniqueIdentifier>{f5a0d9cf-2449-40dc-a9a2-d849dbc4b672}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="递归">
+      <UniqueIdentifier>{09b9832f-1f73-46f7-ae28-99f54bfbe820}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="链表">
+      <UniqueIdentifier>{1f629f32-fd79-443b-856e-deed9cc1db94}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="test.cpp">
+      <Filter>测试</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="No.97.h">
+      <Filter>树</Filter>
+    </ClInclude>
+    <ClInclude Include="No.96.h">
+      <Filter>树</Filter>
+    </ClInclude>
+    <ClInclude Include="No.98.h">
+      <Filter>树</Filter>
+    </ClInclude>
+    <ClInclude Include="No.99.h">
+      <Filter>树</Filter>
+    </ClInclude>
+    <ClInclude Include="1.h">
+      <Filter>测试</Filter>
+    </ClInclude>
+    <ClInclude Include="No.20.h">
+      <Filter>栈</Filter>
+    </ClInclude>
+    <ClInclude Include="No.155.h">
+      <Filter>栈</Filter>
+    </ClInclude>
+    <ClInclude Include="No.496.h">
+      <Filter>栈</Filter>
+    </ClInclude>
+    <ClInclude Include="No.682.h">
+      <Filter>栈</Filter>
+    </ClInclude>
+    <ClInclude Include="No.387.h">
+      <Filter>队列</Filter>
+    </ClInclude>
+    <ClInclude Include="No.206.h">
+      <Filter>链表</Filter>
+    </ClInclude>
+    <ClInclude Include="No.876.h">
+      <Filter>链表</Filter>
+    </ClInclude>
+    <ClInclude Include="No.143.h">
+      <Filter>链表</Filter>
+    </ClInclude>
+    <ClInclude Include="No.102.h">
+      <Filter>树</Filter>
+    </ClInclude>
+    <ClInclude Include="generator.h">
+      <Filter>测试</Filter>
+    </ClInclude>
+    <ClInclude Include="No.103.h">
+      <Filter>树</Filter>
+    </ClInclude>
+    <ClInclude Include="No.105.h">
+      <Filter>树</Filter>
+    </ClInclude>
+    <ClInclude Include="No.106.h">
+      <Filter>树</Filter>
+    </ClInclude>
+    <ClInclude Include="No.107.h">
+      <Filter>树</Filter>
+    </ClInclude>
+    <ClInclude Include="No.108.h">
+      <Filter>树</Filter>
+    </ClInclude>
+    <ClInclude Include="No.110.h">
+      <Filter>树</Filter>
+    </ClInclude>
+    <ClInclude Include="No.111.h">
+      <Filter>树</Filter>
+    </ClInclude>
+    <ClInclude Include="No.112.h">
+      <Filter>树</Filter>
+    </ClInclude>
+    <ClInclude Include="No.113.h">
+      <Filter>树</Filter>
+    </ClInclude>
+    <ClInclude Include="No.145.h">
+      <Filter>树</Filter>
+    </ClInclude>
+    <ClInclude Include="No.109.h">
+      <Filter>树</Filter>
+    </ClInclude>
+    <ClInclude Include="No.114.h">
+      <Filter>树</Filter>
+    </ClInclude>
+    <ClInclude Include="No.116.h">
+      <Filter>树</Filter>
+    </ClInclude>
+    <ClInclude Include="No.117.h">
+      <Filter>树</Filter>
+    </ClInclude>
+    <ClInclude Include="No.129.h">
+      <Filter>树</Filter>
+    </ClInclude>
+    <ClInclude Include="No.173.h">
+      <Filter>树</Filter>
+    </ClInclude>
+    <ClInclude Include="No.199.h">
+      <Filter>树</Filter>
+    </ClInclude>
+    <ClInclude Include="No.222.h">
+      <Filter>树</Filter>
+    </ClInclude>
+    <ClInclude Include="No.230.h">
+      <Filter>树</Filter>
+    </ClInclude>
+    <ClInclude Include="No.235.h">
+      <Filter>树</Filter>
+    </ClInclude>
+    <ClInclude Include="No.236.h">
+      <Filter>树</Filter>
+    </ClInclude>
+    <ClInclude Include="No.100.h">
+      <Filter>树</Filter>
+    </ClInclude>
+    <ClInclude Include="树总结.md">
+      <Filter>树</Filter>
+    </ClInclude>
+    <ClInclude Include="No.101.h">
+      <Filter>树</Filter>
+    </ClInclude>
+    <ClInclude Include="No.104.h">
+      <Filter>树</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
