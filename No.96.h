@@ -2,6 +2,8 @@
 
 #include"1.h"
 
+//这个方法叫记事本吧，下面用动态规划做一下试试
+
 class Solution {
 public:
     int numTrees(int n) {
@@ -34,3 +36,4 @@ public:
 private:
     int* table;
 };
+

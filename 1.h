@@ -10,6 +10,7 @@
 #include<set>
 #include<algorithm>
 #include<queue>
+#include<array>
 
 
 using namespace std;
@@ -40,4 +41,22 @@ struct NextTreeNode {
 		NextTreeNode(int _val) : val(_val), left(NULL), right(NULL), next(NULL) {}
 		NextTreeNode(int _val, NextTreeNode* _left, NextTreeNode* _right, NextTreeNode* _next)
 			: val(_val), left(_left), right(_right), next(_next) {}
+};
+
+class GNode {
+public:
+	int val;
+	vector<GNode*> neighbors;
+	GNode() {
+		val = 0;
+		neighbors = vector<GNode*>();
+	}
+	GNode(int _val) {
+		val = _val;
+		neighbors = vector<GNode*>();
+	}
+	GNode(int _val, vector<GNode*> _neighbors) {
+		val = _val;
+		neighbors = _neighbors;
+	}
 };

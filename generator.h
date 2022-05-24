@@ -92,3 +92,47 @@ ListNode* LLGenerate(vector<int> v) {
 	return cur;
 }
 
+//GNode* GGenerate(vector<pair<int, int>> v) {
+//	map<int, GNode*> map;
+//	set<int> nodes;
+//	int min_num = INT_MAX;
+//	for (auto& p : v) {
+//		if (nodes.find(p.first) == nodes.end()) {
+//			if (p.first < min_num) {
+//				min_num = p.first;
+//			}
+//			nodes.insert(p.first);
+//			map.insert({p.first, new GNode(p.first)});
+//		}
+//		if (nodes.find(p.second) == nodes.end()) {
+//			if (p.second < min_num) {
+//				min_num = p.second;
+//			}
+//			nodes.insert(p.second);
+//			map.insert({ p.second, new GNode(p.second) });
+//		}
+//	}
+//
+//	for (auto& p : v) {
+//		map[p.first]->neighbors.push_back(map[p.second]);
+//		map[p.second]->neighbors.push_back(map[p.first]);
+//	}
+//	
+//	return map[min_num];
+//}
+
+GNode* GGenerate(vector<vector<int>> v) {
+	vector<GNode*> map;
+	map.resize(v.size()+1);
+	for (int i = 1; i < v.size() + 1;i++) {
+		map[i] = new GNode(i);
+	}
+
+	for (int i = 1;i< v.size() +1;i++) {
+		for (auto& n : v[i-1]) {
+			map[i]->neighbors.push_back(map[n]);
+		}
+	}
+
+	return map[1];
+}

@@ -116,6 +116,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -143,8 +144,56 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="generator.h" />
+    <ClInclude Include="No.138%28uncompleted%29.h" />
+    <ClInclude Include="No.142.h" />
+    <ClInclude Include="No.18%28uncomplete%29.h" />
+    <ClInclude Include="No.16.h" />
     <ClInclude Include="No.101.h" />
     <ClInclude Include="No.104.h" />
+    <ClInclude Include="No.11.h" />
+    <ClInclude Include="No.118.h" />
+    <ClInclude Include="No.119.h" />
+    <ClInclude Include="No.120.h" />
+    <ClInclude Include="No.121.h" />
+    <ClInclude Include="No.122.h" />
+    <ClInclude Include="No.123.h" />
+    <ClInclude Include="No.124.h" />
+    <ClInclude Include="No.133.h" />
+    <ClInclude Include="No.15.h" />
+    <ClInclude Include="No.19.h" />
+    <ClInclude Include="No.207.h" />
+    <ClInclude Include="No.210.h" />
+    <ClInclude Include="No.23.h" />
+    <ClInclude Include="No.237.h" />
+    <ClInclude Include="No.25.h" />
+    <ClInclude Include="No.26.h" />
+    <ClInclude Include="No.27.h" />
+    <ClInclude Include="No.310%28uncompleted）.h" />
+    <ClInclude Include="No.328.h" />
+    <ClInclude Include="No.33.h" />
+    <ClInclude Include="No.34.h" />
+    <ClInclude Include="No.35.h" />
+    <ClInclude Include="No.36%28uncomplete%29.h" />
+    <ClInclude Include="No.4%28uncomplete%29.h" />
+    <ClInclude Include="No.42.h" />
+    <ClInclude Include="No.45.h" />
+    <ClInclude Include="No.5%28unsolved%29.h" />
+    <ClInclude Include="No.51.h" />
+    <ClInclude Include="No.5234.h" />
+    <ClInclude Include="No.53.h" />
+    <ClInclude Include="No.547.h" />
+    <ClInclude Include="No.55.h" />
+    <ClInclude Include="No.6064.h" />
+    <ClInclude Include="No.6065.h" />
+    <ClInclude Include="No.6066.h" />
+    <ClInclude Include="No.62.h" />
+    <ClInclude Include="No.63.h" />
+    <ClInclude Include="No.64.h" />
+    <ClInclude Include="No.70.h" />
+    <ClInclude Include="No.72.h" />
+    <ClInclude Include="No.74.h" />
+    <ClInclude Include="No.81.h" />
+    <ClInclude Include="No.887%28unsolved%29.h" />
     <ClInclude Include="树总结.md" />
     <ClInclude Include="No.100.h" />
     <ClInclude Include="No.102.h" />
@@ -160,7 +209,7 @@
     <ClInclude Include="No.116.h" />
     <ClInclude Include="No.117.h" />
     <ClInclude Include="No.129.h" />
-    <ClInclude Include="No.143.h" />
+    <ClInclude Include="No.143%28uncompleted%29.h" />
     <ClInclude Include="No.145.h" />
     <ClInclude Include="No.155.h" />
     <ClInclude Include="No.173.h" />
@@ -182,6 +231,10 @@
     <ClInclude Include="1.h" />
     <ClInclude Include="No.107.h" />
     <ClInclude Include="No.113.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="二分查找总结.md" />
+    <None Include="动态规划总结.md" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

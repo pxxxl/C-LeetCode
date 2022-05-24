@@ -21,6 +21,21 @@
     <Filter Include="链表">
       <UniqueIdentifier>{1f629f32-fd79-443b-856e-deed9cc1db94}</UniqueIdentifier>
     </Filter>
+    <Filter Include="二分查找">
+      <UniqueIdentifier>{6deb4360-55cb-4ac9-80a8-74a233dd3b50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="动态规划">
+      <UniqueIdentifier>{2fe2030a-fb23-4e42-a210-30d62c1ab608}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="周赛">
+      <UniqueIdentifier>{26c33b6b-f2e6-4e71-9bf1-baae6324666a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="图">
+      <UniqueIdentifier>{e75a9c4a-8098-426d-9bbd-7546c880348d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="数组">
+      <UniqueIdentifier>{bd6a7561-f8ec-46bc-8c1a-788cad20f678}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="test.cpp">
@@ -64,7 +79,7 @@
     <ClInclude Include="No.876.h">
       <Filter>链表</Filter>
     </ClInclude>
-    <ClInclude Include="No.143.h">
+    <ClInclude Include="No.143%28uncompleted%29.h">
       <Filter>链表</Filter>
     </ClInclude>
     <ClInclude Include="No.102.h">
@@ -148,5 +163,157 @@
     <ClInclude Include="No.104.h">
       <Filter>树</Filter>
     </ClInclude>
+    <ClInclude Include="No.33.h">
+      <Filter>二分查找</Filter>
+    </ClInclude>
+    <ClInclude Include="No.34.h">
+      <Filter>二分查找</Filter>
+    </ClInclude>
+    <ClInclude Include="No.35.h">
+      <Filter>二分查找</Filter>
+    </ClInclude>
+    <ClInclude Include="No.74.h">
+      <Filter>二分查找</Filter>
+    </ClInclude>
+    <ClInclude Include="No.81.h">
+      <Filter>二分查找</Filter>
+    </ClInclude>
+    <ClInclude Include="No.70.h">
+      <Filter>动态规划</Filter>
+    </ClInclude>
+    <ClInclude Include="No.53.h">
+      <Filter>动态规划</Filter>
+    </ClInclude>
+    <ClInclude Include="No.118.h">
+      <Filter>动态规划</Filter>
+    </ClInclude>
+    <ClInclude Include="No.119.h">
+      <Filter>动态规划</Filter>
+    </ClInclude>
+    <ClInclude Include="No.121.h">
+      <Filter>动态规划</Filter>
+    </ClInclude>
+    <ClInclude Include="No.122.h">
+      <Filter>动态规划</Filter>
+    </ClInclude>
+    <ClInclude Include="No.123.h">
+      <Filter>动态规划</Filter>
+    </ClInclude>
+    <ClInclude Include="No.5%28unsolved%29.h">
+      <Filter>动态规划</Filter>
+    </ClInclude>
+    <ClInclude Include="No.72.h">
+      <Filter>动态规划</Filter>
+    </ClInclude>
+    <ClInclude Include="No.887%28unsolved%29.h">
+      <Filter>动态规划</Filter>
+    </ClInclude>
+    <ClInclude Include="No.45.h">
+      <Filter>动态规划</Filter>
+    </ClInclude>
+    <ClInclude Include="No.55.h">
+      <Filter>动态规划</Filter>
+    </ClInclude>
+    <ClInclude Include="No.62.h">
+      <Filter>动态规划</Filter>
+    </ClInclude>
+    <ClInclude Include="No.63.h">
+      <Filter>动态规划</Filter>
+    </ClInclude>
+    <ClInclude Include="No.64.h">
+      <Filter>动态规划</Filter>
+    </ClInclude>
+    <ClInclude Include="No.120.h">
+      <Filter>动态规划</Filter>
+    </ClInclude>
+    <ClInclude Include="No.5234.h">
+      <Filter>周赛</Filter>
+    </ClInclude>
+    <ClInclude Include="No.6064.h">
+      <Filter>周赛</Filter>
+    </ClInclude>
+    <ClInclude Include="No.6065.h">
+      <Filter>周赛</Filter>
+    </ClInclude>
+    <ClInclude Include="No.6066.h">
+      <Filter>周赛</Filter>
+    </ClInclude>
+    <ClInclude Include="No.124.h">
+      <Filter>动态规划</Filter>
+    </ClInclude>
+    <ClInclude Include="No.42.h">
+      <Filter>动态规划</Filter>
+    </ClInclude>
+    <ClInclude Include="No.133.h">
+      <Filter>图</Filter>
+    </ClInclude>
+    <ClInclude Include="No.207.h">
+      <Filter>图</Filter>
+    </ClInclude>
+    <ClInclude Include="No.210.h">
+      <Filter>图</Filter>
+    </ClInclude>
+    <ClInclude Include="No.310%28uncompleted）.h">
+      <Filter>图</Filter>
+    </ClInclude>
+    <ClInclude Include="No.547.h">
+      <Filter>图</Filter>
+    </ClInclude>
+    <ClInclude Include="No.4%28uncomplete%29.h">
+      <Filter>数组</Filter>
+    </ClInclude>
+    <ClInclude Include="No.11.h">
+      <Filter>数组</Filter>
+    </ClInclude>
+    <ClInclude Include="No.15.h">
+      <Filter>数组</Filter>
+    </ClInclude>
+    <ClInclude Include="No.16.h">
+      <Filter>数组</Filter>
+    </ClInclude>
+    <ClInclude Include="No.18%28uncomplete%29.h">
+      <Filter>数组</Filter>
+    </ClInclude>
+    <ClInclude Include="No.26.h">
+      <Filter>数组</Filter>
+    </ClInclude>
+    <ClInclude Include="No.27.h">
+      <Filter>数组</Filter>
+    </ClInclude>
+    <ClInclude Include="No.36%28uncomplete%29.h">
+      <Filter>数组</Filter>
+    </ClInclude>
+    <ClInclude Include="No.51.h">
+      <Filter>递归</Filter>
+    </ClInclude>
+    <ClInclude Include="No.19.h">
+      <Filter>链表</Filter>
+    </ClInclude>
+    <ClInclude Include="No.23.h">
+      <Filter>链表</Filter>
+    </ClInclude>
+    <ClInclude Include="No.138%28uncompleted%29.h">
+      <Filter>链表</Filter>
+    </ClInclude>
+    <ClInclude Include="No.237.h">
+      <Filter>链表</Filter>
+    </ClInclude>
+    <ClInclude Include="No.328.h">
+      <Filter>链表</Filter>
+    </ClInclude>
+    <ClInclude Include="No.25.h">
+      <Filter>链表</Filter>
+    </ClInclude>
+    <ClInclude Include="No.142.h">
+      <Filter>链表</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="二分查找总结.md">
+      <Filter>二分查找</Filter>
+    </None>
+    <None Include="动态规划总结.md">
+      <Filter>动态规划</Filter>
+    </None>
   </ItemGroup>
 </Project>
